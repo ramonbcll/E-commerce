@@ -1,0 +1,152 @@
+/* font importing */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(100deg, #dedede, #dedede);
+}
+
+header {
+    height: 200px;
+    background-position-y: initial;
+    background: #f78b00;
+}
+
+.brand {
+    font-size: 24px;
+    color: #00285f;
+    cursor: pointer;
+}
+
+.init {
+    text-decoration: none
+}
+
+.content {
+    max-width: 1000px;
+}
+
+.content .header-block {
+    max-width: 1000px;
+    min-width: 300px;
+    height: 450px;
+    background-color: #00285f;
+    border-radius: 8px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: #00285f;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #00285f;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+button {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: right;
+    z-index: 15;
+    margin-left: 43px;
+    margin-top: 45px;
+}
+
+button:hover {
+    transition: background, color 0.6s;
+    background: #f78b00;
+    color: #00285f;
+}
+
+/* Footer */
+
+footer {
+    width: 98.95%;
+    height: 250px;
+}
+
+footer .main {
+    width: 100%;
+    height: 161px;
+    background: #f78b00;
+    padding: 20px 10px;
+    margin-top: 510px;
+}
+
+.footer-links {
+    max-width: 1000px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.footer-company, .footer-rental, .footer-contact, .footer-social {
+    color: white;
+    height: 100%;
+    min-height: 100px;
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+}
+
+.footer-links h6 {
+    margin-bottom: 8px;
+}
+
+.main .footer-social img {
+    width: 32px;
+    height: 32px;
+}
+
+footer .last {
+    width: 101.05%;
+    height: 50px;
+    background: #00285f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
